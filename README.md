@@ -5,7 +5,7 @@ Prerequisites:
 
 1. Python 3.x.x
 2. The following python packages:
-    Numpy, matplotlib, sklearn, pandas, scipy
+    Numpy, matplotlib, sklearn, pandas, scipy, seaborn
     
 Installation (in case you do not have them, on a linux distro):
 1. sudo apt-get install python3
@@ -13,6 +13,8 @@ Installation (in case you do not have them, on a linux distro):
 3. pip3 install numpy --user
 4. pip3 install matplotlib --user
 5. pip3 install sklearn pandas scipy --user
+6. sudo apt-get update -y
+7. sudo apt-get install -y python3-seaborn
 
 NOTE:
 It is advised to run the demo in a jupyter-notebook shell. The jupyter-notebook file is present in the folder(*.ipynb).
